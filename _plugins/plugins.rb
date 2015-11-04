@@ -1,1 +1,1 @@
-require 'jekyll/multiple/languages/plugin'
+# require 'jekyll/multiple/languages/plugin'

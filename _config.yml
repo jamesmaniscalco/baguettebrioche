@@ -1,3 +1,6 @@
 timezone: 'America/New_York'
 languages: ['en', 'fr']
 exclude_from_localizations: ['javascript', 'images', 'css']
+
+sass:
+  sass_dir: bower_components/bootstrap-sass/assets/stylesheets
