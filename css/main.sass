@@ -9,8 +9,21 @@ $icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/"
 
 /* custom variable */
 // $body-bg: red
+@import "bootstrap/variables"
 
 
+// general
+.col-same-height
+    display: table-cell
+    float: none !important
+
+.row-same-height
+    display: table
+    width: 100%
+
+
+
+// navbar stuff
 .navbar-brand
     background: url("/images/xs-logo.png") center / contain no-repeat
     width: 200px
@@ -20,6 +33,30 @@ $icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/"
 
 .navbar .container-fluid, .navbar-collapse
     padding-left: 0
+
+
+// theme header stuff
+.theme_header
+    @extend .jumbotron
+    background-repeat: no-repeat
+    background-size: auto 100%
+
+.theme_text
+    text-align: right
+    height: 100%
+    padding-right: 1em
+    @media (min-width: $screen-sm-min)
+        padding-right: 0
+
+
+// home page
+.index-title
+    line-height: 0.5
+    text-align: center
+    border-bottom: 1px solid black
+    > h4
+        background-color: white
+
 
 
 

@@ -1,9 +1,17 @@
 global:
   english: 'English version'
   french: 'Version français'
+  recent_posts: 'Recent posts'
 
 pages:
   recipes: 'recipes'
 
 debug:
   hello-world: 'Hello, world!'
+
+theme:
+    chili: 
+        name: 'Chili'
+        img_text: 'A delicious bowl of chili'
+        img_url: '/images/chili-test-2.png'
+        month: 'January 2016'
