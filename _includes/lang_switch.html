@@ -1,0 +1,7 @@
+{% if site.lang == "en" %}
+  {% capture link1 %}{{ site.baseurl_root }}fr{{ page.url}}{% endcapture %}
+  <a href="{{ link1 }}" >{% t global.french %}</a>
+{% else if site.lang == "fr" %}
+  {% capture link2 %}{{ site.baseurl_root }}{{ page.url  }}{% endcapture %}
+  <a href="{{ link2 }}" >{% t global.english %}</a>
+{% endif %}

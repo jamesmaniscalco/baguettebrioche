@@ -1,2 +1,9 @@
+global:
+  english: 'English'
+  french: 'Français'
+
 pages:
   recipes: 'recettes'
+
+debug:
+  hello-world: 'Bonjour, le monde !'
