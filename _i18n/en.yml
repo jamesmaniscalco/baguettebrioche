@@ -1,6 +1,6 @@
 global:
-  english: 'English'
-  french: 'Français'
+  english: 'English version'
+  french: 'Version français'
 
 pages:
   recipes: 'recipes'
