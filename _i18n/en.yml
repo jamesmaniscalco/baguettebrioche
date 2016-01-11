@@ -4,7 +4,13 @@ global:
   recent_posts: 'Recent posts'
 
 pages:
-  recipes: 'recipes'
+  index:
+    title: 'Home'
+  recipes:
+    title: 'Recipes'
+  about:
+    title: 'About Baguette & Brioche'
+    title_short: 'About B&B'
 
 debug:
   hello-world: 'Hello, world!'
