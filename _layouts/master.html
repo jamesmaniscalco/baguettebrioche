@@ -18,16 +18,18 @@
     <![endif]-->
   </head>
   <body>
+
     {% include header.html %}
 
-    <div class="container">
+    <div class="outer container">
 
       {{ content }}
 
-      {% include footer.html %}
-
-      {% include footer_script.html %}
-
     </div>
+
+    {% include footer.html %}
+
+    {% include footer_script.html %}
+
   </body>
 </html>

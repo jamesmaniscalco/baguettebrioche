@@ -21,6 +21,17 @@ $icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/"
     display: table
     width: 100%
 
+html
+    min-height: 100%
+    position: relative
+
+.outer
+    margin-bottom: 60px
+    @media (min-width: $screen-sm-min)
+        margin-bottom: 120px
+
+
+
 
 
 // navbar stuff
@@ -49,6 +60,20 @@ $icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/"
         padding-right: 0
 
 
+// footer stuff
+.footer
+    position: absolute
+    bottom: 0
+    width: 100%
+    height: 60px
+    background-color: #f8f8f8
+
+.footer-text
+    color: #919191
+    margin: 20px 0
+    text-align: center
+
+
 // home page
 .index-title
     line-height: 0.5
@@ -62,6 +87,25 @@ $icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/"
     border-bottom: 1px solid black
     margin-bottom: 0.3em
     width: 10%
+
+
+
+// recipes
+.recipe-title
+    padding-bottom: 1em
+    @media (min-width: $screen-sm-min)
+        padding-bottom: 3em
+
+.recipe-stats
+    // background-color: #f8f8f8
+    // padding: 1em
+    // border: 1px solid #e7e7e7
+    // border-radius: 4px
+    padding: 1em 0
+    margin-left: 25px
+
+.ingred-amount
+    font-weight: bold
 
 
 
