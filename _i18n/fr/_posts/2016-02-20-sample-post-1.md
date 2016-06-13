@@ -4,19 +4,20 @@ title: Exemple recette 1
 categories: recettes
 time: 1 heure
 servings: 2 portions
+image: sample_photo.jpg
+description: Ce texte-là c'est une description brève de la recette. J'espère que vous l'aimez !
 ---
 
 
-###Ingrédients:
+### Ingrédients:
 
-<!--<ul class="list-unstyled">-->
 <ul>
     <li><span class="ingred-amount">1 c à t</span> d'arsenic</li>
-    <li><span class="ingred-amount">2 bandes</span> de vielle dentelle</li>
+    <li><span class="ingred-amount">2 bandes</span> de vieille dentelle</li>
 </ul>
 
 
-###Instructions:
+### Instructions:
 
 <ol class="instructions">
     <li>Préparer un wok et le mettre à feu haut.</li>

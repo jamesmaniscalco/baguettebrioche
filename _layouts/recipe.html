@@ -2,20 +2,30 @@
 layout: master
 ---
 
-<div class="row">
+<div class="row recipe-title-row">
     <div class="col-xs-12 recipe-title">
         <h1>{{ page.title }}</h1>
     </div>
 
+    <div class="recipe-image">
+        <img src="/images/{{ page.image }}" alt="{{ page.title }}"/>
+    </div>
+
     {% if page.time or page.servings %}
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="recipe-stats">
+    <div class="col-xs-10 col-sm-5 recipe-stats">
             {% if page.time %}<span class="glyphicon glyphicon-time"></span> {{ page.time }} </br> {% endif %}
             {% if page.servings %}<span class="glyphicon glyphicon-user"></span> {{ page.servings }} </br> {% endif %}
-        </div>
     </div>
     {% endif %}
 
+    {% if page.description %}
+    <div class="col-xs-12 col-sm-5 recipe-description">
+        <p>{{ page.description }}</p>
+    </div>
+    {% endif %}
+</div>
+
+<div class="row">
     <div class="col-xs-12 recipe-text">
         {{ content }}
     </div>
