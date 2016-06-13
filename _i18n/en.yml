@@ -2,6 +2,7 @@ global:
   english: 'English version'
   french: 'Version français'
   recent_posts: 'Recent posts'
+  lang_url: ''
 
 pages:
   index:
