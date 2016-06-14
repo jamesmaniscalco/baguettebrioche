@@ -78,6 +78,7 @@ html
 .index-title
     line-height: 0.5
     text-align: center
+    margin-bottom: 30px
     > h4
         display: inline-block
         background-color: white
@@ -88,6 +89,40 @@ html
     margin-bottom: 0.3em
     width: 10%
 
+.index-thumbnail
+    @extend .thumbnail
+    position: relative
+    background-size: cover
+    background-position: center
+
+.index-thumbnail:after
+    content: ""
+    display: block
+    padding-bottom: 100%
+
+.thumbnail-gradient
+    position: absolute
+    height: 100%
+    width: 100%
+    bottom: 0
+    left: 0
+    box-shadow: inset 0px -100px 70px -50px black
+    transition: box-shadow 0.3s ease-in-out
+    &:hover
+        box-shadow: inset 0px -150px 157px -50px black
+
+
+.thumbnail-caption
+    position: absolute
+    bottom: 0
+    left: 0
+    padding: 0 1em
+    > a
+        color: white
+        &:hover
+            color: white
+
+
 
 // pages
 .page-title
@@ -97,6 +132,7 @@ html
             margin-top: 0
     @media (min-width: $screen-sm-min)
         padding-bottom: 3em
+
 
 
 

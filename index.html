@@ -8,14 +8,18 @@ layout: master
     <div class="col-xs-12 index-title">
         <span class="long-dash"></span> <h4>{% t global.recent_posts %}</h4> <span class="long-dash"></span>
     </div>
+</div>
 
-    <div class="col-xs-12">
-        <ul>
-            {% for post in site.posts %}
-                <li>
-                    <a href="{% t global.lang_url %}{{ post.url }}">{{ post.title }}</a>
-                </li>
-            {% endfor %}
-        </ul>
+<div class="row">
+    {% for post in site.posts %}
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="index-thumbnail" style="background-image:url(/images/{{ post.image }})">
+            <div class="thumbnail-gradient">
+            <div class="thumbnail-caption">
+                <a href="{% t global.lang_url %}{{ post.url }}"><h3>{{ post.title }}<h3></a>
+            </div>
+            </div>
+        </div>
     </div>
+    {% endfor %}
 </div>
