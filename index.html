@@ -11,7 +11,7 @@ layout: master
 </div>
 
 <div class="row">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
         <div class="index-thumbnail" style="background-image:url(/images/{{ post.image }})">
             <div class="thumbnail-gradient">
@@ -23,3 +23,21 @@ layout: master
     </div>
     {% endfor %}
 </div>
+
+<div class="row">
+  <div class="col-xs-12 paginate">
+    {% if paginator.previous_page %}
+        <a href="{% t global.lang_url %}{{ paginator.previous_page_path }}" class="previous-page">{% t global.previous_page %}</a>
+    {% else %}
+        <span class="previous-page">{% t global.previous_page %}</span>
+    {% endif %}
+    <span class="page-number">- page {{ paginator.page }} / {{ paginator.total_pages }} -</span>
+    {% if paginator.next_page %}
+        <a href="{% t global.lang_url %}{{ paginator.next_page_path }}" class="next-page">{% t global.next_page %}</a>
+    {% else %}
+        <span class="next-page">{% t global.next_page %}</span>
+    {% endif %}
+  </div>
+</div>
+
+    

@@ -2,6 +2,8 @@ global:
   english: 'English version'
   french: 'Version français'
   recent_posts: 'Publications récentes'
+  previous_page: 'plus récentes'
+  next_page: 'plus vieilles'
   lang_url: '/fr'
 
 pages:
