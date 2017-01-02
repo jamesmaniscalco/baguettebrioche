@@ -14,6 +14,8 @@ pages:
   about:
     title: 'About Baguette & Brioche'
     title_short: 'About B&B'
+  months:
+    title: 'Monthly themes'
 
 debug:
   hello-world: 'Hello, world!'
