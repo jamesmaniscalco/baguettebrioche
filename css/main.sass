@@ -58,6 +58,14 @@ html
     padding-right: 1em
     @media (min-width: $screen-sm-min)
         padding-right: 0
+    > a
+        color: inherit
+        &:hover
+            color: inherit
+        &:active
+            color: inherit
+        &:visited
+            color: inherit
 
 
 // footer stuff
@@ -132,6 +140,7 @@ html
 .next_page
 
 
+
 // pages
 .page-title
     padding-bottom: 1em
@@ -182,6 +191,23 @@ html
 
 
 
+// months
+.month-top-text
+    @extend .col-xs-12
+    @extend .col-sm-10
+    @extend .col-sm-offset-1
+    @extend .col-md-8
+    @extend .col-md-offset-2
+    @extend .col-lg-6
+    @extend .col-lg-offset-3
+    padding-bottom: 30px
+
+.month-tagline
+    text-align: center
+    padding-bottom: 30px
+    > span
+        @extend h2
+    
 
 
 

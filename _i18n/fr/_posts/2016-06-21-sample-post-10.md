@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Exemple recette 2, avec un titre plus long cette fois
-categories: recettes
+categories: recettes, 2017-01
 time: 1 heure
 servings: 2 portions
 image: chili-test.png

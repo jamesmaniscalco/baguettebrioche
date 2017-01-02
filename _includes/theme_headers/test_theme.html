@@ -1,6 +1,12 @@
 <div class="theme_header" style="background-image: url({% t theme.chili.img_url %}); background-color: #158861; color: #E9E6FC;">
     <div class="theme_text">
+        {% if page.theme_header != "test_theme" %}
+            <a href="#">
+        {% endif %}
         <h1>{% t theme.chili.name %}</h1>
         <h2>{% t theme.chili.month %}</h2>
+        {% if page.theme_header != "test_theme" %}
+            </a>
+        {% endif %}
     </div>
 </div>

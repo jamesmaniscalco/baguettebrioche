@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Sample Recipe 2, with a Longer Title This Time
-categories: recipes
+categories: recipes, 2017-01
 time: 1 hour
 servings: 2 servings
 image: chili-test.png
