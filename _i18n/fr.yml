@@ -28,6 +28,4 @@ theme:
         month: 'Janvier 2016'
     2017-01: 
         name: 'Chili 2'
-        img_text: 'Un bol delicieux de chili'
-        img_url: '/images/chili-test-2.png'
         month: 'Janvier 2017'
