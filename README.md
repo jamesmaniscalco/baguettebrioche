@@ -7,6 +7,7 @@ The Baguette &amp; Brioche website
     * [Theme page](#theme-page)
     * [Translation files](#translation-files)
     * [Updating other pages](#updating-other-pages)
+* [Creating a new post](#creating-a-new-post)
 
 
 
@@ -40,4 +41,18 @@ For the main index, go to `/index.html` and set the `{% include %}` line up top 
 
 For the theme index, go to `/m/index.html` and add the new theme header to the list. These are sorted chronologically, newest fist, but you have to do the sorting manually!
 
+
+## Creating a new post
+
+To create a new (recipe) post, you should just need to make the post files - everything else should get handled automagically.
+
+Let's start with the `en` version. Copy an existing post in the `/_i18n/en/posts/` directory. Rename it with a relevant date and title. In the front matter, update the `title`, `categories`, etc. tags to the relevant values.
+
+You will need to add the recipe picture file to the `/images/` directory and link it with the `image` tag in the post file.
+
+Modify the text of the post (ingredients, instructions, etc.) as needed.
+
+Make sure that the relevant theme/month is in the categories! This is necessary for the theme page to include the right posts.
+
+Now to make the French file: copy the file you have into the `/_i18n/fr/posts/` directory **with the same title**. Modify the language-specific content in the front matter and the text, but make sure to leave the `image` tag as-is. 
 
