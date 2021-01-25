@@ -1,6 +1,6 @@
 global:
-  english: 'English version'
-  french: 'Version français'
+  english: 'English'
+  french: 'français'
   recent_posts: 'Publications récentes'
   previous_page: 'plus récentes'
   next_page: 'plus vieilles'
@@ -15,7 +15,7 @@ pages:
     title: 'À propos de Baguette & Brioche'
     title_short: 'À propos de B&B'
   months:
-    title: 'Thèmes mensuelles'
+    title: 'Thèmes mensuels'
 
 debug:
   hello-world: 'Bonjour, le monde !'

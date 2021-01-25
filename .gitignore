@@ -2,5 +2,9 @@ _site/
 .sass-cache/
 .jekyll-metadata
 .ruby-version
+.jekyll-cache/
 
 **.DS_Store
+
+**.sublime-project
+**.sublime-workspace

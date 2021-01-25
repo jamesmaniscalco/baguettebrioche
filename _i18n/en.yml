@@ -1,6 +1,6 @@
 global:
-  english: 'English version'
-  french: 'Version français'
+  english: 'English'
+  french: 'français'
   recent_posts: 'Recent posts'
   previous_page: 'newer'
   next_page: 'older'
