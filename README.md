@@ -26,11 +26,22 @@ Then initialize `rbenv`:
 
     rbenv init
 
+You might also need these in your `~/.bash_profile.rc`:
+
+    export RBENV_ROOT=/usr/local/var/rbenv
+    export PATH="$RBENV_ROOT:$PATH"
+    if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+The `RBENV_ROOT` might be different on your machine. Run `rbenv prefix` to get where the shims are stored, then remove the '`/shims`' from the path name to get the correct `RBENV_ROOT`.
+
 Restart your terminal app before proceeding.
 
 You need to have the most up-to-date Ruby version. As of this writing it's version `2.7.2`.
 
     rbenv install 2.7.2
+
+In the directory where you have downloaded this repo, set the local Ruby version:
+
     rbenv local 2.7.2
 
 You need to have bundler installed too:
@@ -43,6 +54,7 @@ Finally, install the required plugin gems:
 
 That's it.
 
+
 # Build and view site
 
 Build the site with:
@@ -54,6 +66,8 @@ The generated site files will be in the `_site/` directory.
 Alernatively, build and view the site with:
 
     jekyll serve
+
+If you don't want to use the command line, the `_build-site` executable will also build and serve the site.
 
 The generated site will be visible at http://localhost:4000 (check command line output to be sure).
 

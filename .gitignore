@@ -9,6 +9,4 @@ _site/
 **.sublime-project
 **.sublime-workspace
 
-_build-site
-_jekyll-update
 
