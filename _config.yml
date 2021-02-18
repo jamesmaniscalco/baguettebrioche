@@ -1,6 +1,7 @@
 timezone: 'America/New_York'
 languages: ['en', 'fr']
 exclude_from_localizations: ['javascript', 'images', 'css']
+exclude: ['*.sublime-*', 'README.md']
 
 baseurl: ""
 permalink: /posts/:title/
@@ -8,6 +9,6 @@ permalink: /posts/:title/
 sass:
   sass_dir: bower_components/bootstrap-sass/assets/stylesheets
 
-gems: ['jekyll-paginate']
+plugins: ['jekyll-paginate']
 
 paginate: 8

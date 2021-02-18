@@ -1,6 +1,6 @@
 global:
   english: 'English'
-  french: 'français'
+  french: 'Français'
   recent_posts: 'Publications récentes'
   previous_page: 'plus récentes'
   next_page: 'plus vieilles'
@@ -16,6 +16,8 @@ pages:
     title_short: 'À propos de B&B'
   months:
     title: 'Thèmes mensuels'
+  all_recipes:
+    title: 'Toutes les recettes'
 
 debug:
   hello-world: 'Bonjour, le monde !'

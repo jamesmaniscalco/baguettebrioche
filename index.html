@@ -2,7 +2,9 @@
 layout: master
 ---
 
+{%comment%}
 {% include theme_headers/2017-01.html %}
+{%endcomment%}
 
 <div class="row">
     <div class="col-xs-12 index-title">
@@ -16,7 +18,7 @@ layout: master
         <div class="index-thumbnail" style="background-image:url(/images/{{ post.image }})">
             <div class="thumbnail-gradient">
             <div class="thumbnail-caption">
-                <a href="{% t global.lang_url %}{{ post.url }}"><h3>{{ post.title }}<h3></a>
+                <a href="{% t global.lang_url %}{{ post.url }}"><h3>{{ post.title }}</h3></a>
             </div>
             </div>
         </div>

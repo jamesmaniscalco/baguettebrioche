@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+<div class="col-xs-12 page-title center">
+    <h1>{% t pages.all_recipes.title %}</h1>
+</div>
+
+{% assign sorted_recipes = site.posts | sort:'title' %}
+<div class="row">
+    {% for post in sorted_recipes %}
+    <div class="col-xs-12">
+      <div class="text-center">
+        <a href="{% t global.lang_url %}{{ post.url }}"><span>{{ post.title }}</span></a>
+      </div>
+    </div>
+    {% endfor %}
+</div>
+
