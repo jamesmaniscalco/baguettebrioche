@@ -40,6 +40,8 @@ You need to have the most up-to-date Ruby version. As of this writing it's versi
 
     rbenv install 2.7.2
 
+Clone or download this repository onto your computer.
+
 In the directory where you have downloaded this repo, set the local Ruby version:
 
     rbenv local 2.7.2
