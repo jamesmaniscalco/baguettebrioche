@@ -1,2 +1,8 @@
 <script src="{{ site.baseurl_root }}/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="{{ site.baseurl_root }}/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(".index-thumbnail").click(function() {
+        window.location = $(this).data("location"); 
+        return false;
+    });
+</script>

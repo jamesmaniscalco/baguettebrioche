@@ -15,7 +15,7 @@ layout: master
 <div class="row">
     {% for post in paginator.posts %}
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="index-thumbnail" style="background-image:url(/images/{{ post.image }})">
+        <div class="index-thumbnail" style="background-image:url(/images/{{ post.image }})" data-location="{% t global.lang_url %}{{ post.url }}">
             <div class="thumbnail-gradient">
             <div class="thumbnail-caption">
                 <a href="{% t global.lang_url %}{{ post.url }}"><h3>{{ post.title }}</h3></a>
@@ -41,5 +41,3 @@ layout: master
     {% endif %}
   </div>
 </div>
-
-    
