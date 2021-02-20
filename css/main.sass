@@ -162,6 +162,7 @@ html
 
 // recipes
 .recipe-title
+    @extend .col-xs-12
     @extend .page-title
     @extend .col-sm-6
 
@@ -171,6 +172,7 @@ html
     @extend .pull-right
     @media (min-width: $screen-sm-min)
         margin-top: 2em
+        padding-bottom: 1em
     > img
         max-width: 100%
         border-radius: 6px
@@ -190,8 +192,11 @@ html
 .recipe-description
     > p
         @extend .lead
-        padding: 1em 0 0 0
+        padding: 1em 0 1em 0
         margin: 0 !important
+
+.recipe-text
+    float: none !important
 
 .ingred-amount
     font-weight: bold

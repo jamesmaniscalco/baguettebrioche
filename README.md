@@ -1,7 +1,9 @@
 # baguettebrioche
+
 The Baguette &amp; Brioche website
 
 # README Contents
+
 * [Initial setup](#initial-setup)
 * [Build and view site](#build-and-view-site)
 * [Creating a new post](#creating-a-new-post)
@@ -71,7 +73,7 @@ Alernatively, build and view the site with:
 
 If you don't want to use the command line, the `_build-site` executable will also build and serve the site.
 
-The generated site will be visible at http://localhost:4000 (check command line output to be sure).
+The generated site will be visible at [http://localhost:4000](http://localhost:4000) (check command line output to be sure).
 
 Stop the server with `ctrl-C`.
 
